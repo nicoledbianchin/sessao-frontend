@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(89, 121, 224);
+  font: normal 15px Arial;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .main {
+    background-color: white;
+    border-radius: 5px;
+    width: 400;
+    padding: 10px;
+    margin: auto;
+  }
+}
+
+button {
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 800px) {
+  .main {
+    background-color: white;
+    border-radius: 5px;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+  }
+}
